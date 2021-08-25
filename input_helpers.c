@@ -111,7 +111,6 @@ int run_args(char **args, char **front, int *exe_ret)
 {
 	int ret, i;
 	int (*builtin)(char **args, char **front);
-	int hist;
 
 	builtin = get_builtin(args[0]);
 
