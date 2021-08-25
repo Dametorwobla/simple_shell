@@ -284,7 +284,7 @@ $
 ## Authors :black_nib:
 
 * Henok Gashaw <[HenokG](https://github.com/Henok100)>
-* Brennan D Baraban <[DanielY](https://github.com/Daniel-bee)>
+* Daniel Yadeta <[DanielY](https://github.com/Daniel-bee)>
 
 ## License :lock:
 
