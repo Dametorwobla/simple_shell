@@ -15,6 +15,8 @@ char *error_env(char **args)
 {
 	char *error, *hist_str;
 	int len;
+	char *name;
+	int hist;
 
 	hist_str = _itoa(hist);
 	if (!hist_str)
@@ -50,6 +52,8 @@ char *error_1(char **args)
 {
 	char *error;
 	int len;
+	char *name;
+	int hist;
 
 	len = _strlen(name) + _strlen(args[0]) + 13;
 	error = malloc(sizeof(char) * (len + 1));
@@ -73,6 +77,8 @@ char *error_2_exit(char **args)
 {
 	char *error, *hist_str;
 	int len;
+	char *name;
+	int hist;
 
 	hist_str = _itoa(hist);
 	if (!hist_str)
@@ -105,6 +111,8 @@ char *error_2_exit(char **args)
  */
 char *error_2_cd(char **args)
 {
+	char *name;
+	int hist;
 	char *error, *hist_str;
 	int len;
 
@@ -146,6 +154,8 @@ char *error_2_syntax(char **args)
 {
 	char *error, *hist_str;
 	int len;
+	char *name;
+	int hist;
 
 	hist_str = _itoa(hist);
 	if (!hist_str)
